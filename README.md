@@ -18,7 +18,7 @@ Our dataset includes thousands of different wines, both white and red, with the 
 
 - Ben Carmichael: I am a third year economics student.
 - Christian Csizmazia: I am a third year math major.
-- Person 3: one sentence about you!
+- Austin Zeng: I am first year in UBCO.
 
 ## References
 
