@@ -1,5 +1,7 @@
 ##README
-**bold text**Name:**bold text** **italic text**Christian**italic text** 
+
+**Name: ** 
+*Christian*  
 
 For Milestone 2:
 -Line 1: Headers
