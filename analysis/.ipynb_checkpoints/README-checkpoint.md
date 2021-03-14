@@ -6,5 +6,5 @@ Include folders for:
 - Christian
 - Austin
 
-**The *Milestone_2_analysis.ipynb* is a cleaned analysis file **
+__The *Milestone_2_analysis.ipynb* is a cleaned analysis file
 
