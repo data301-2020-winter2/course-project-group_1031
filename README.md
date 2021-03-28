@@ -1,5 +1,6 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=360780&assignment_repo_type=GroupAssignmentRepo)
 # Group 1031 - What makes for great wine?
+![Image of Okanagan Winery](/images/winery.jpg)
 
 
 ## Milestones
@@ -22,5 +23,6 @@ Our dataset includes thousands of different wines, both white and red, with the 
 
 ## References
 
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
-Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+* > P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+* > Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009. 
+* > Image “Wines of Okanagan” is credit by http://www.winesofcanada.com/
