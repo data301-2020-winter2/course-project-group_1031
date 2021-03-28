@@ -1,0 +1,13 @@
+Dataset column information:
+
+A (fixed) shows the amount of fixed acidity present in the wine
+A (volatile) shows the amount of volatile acidity present in the wine
+citric acid shows the amount of citric acid, in grams per litre, present in the wine
+RS shows the amount of residual (left over) sugar present in the wine, also in grams per litre
+chlorides shows the amount of chlorides, in parts per million, present in the wine
+Free and Total SO2 show the quantities of sulfur dioxide present in the wine
+density shows how dense the wine is
+pH shows how acidic the wine is according to the pH scale
+sulphates shows how many grams per litre of sulphates there are in the wine
+alcohol shows the alcohol by volume of the wine as a percentage
+quality shows the rated quality of the wine, with 9 as highest and 0 as lowest
