@@ -1,0 +1,1250 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='rwq.csv (Multiple Connections)' inline='true' name='federated.0yji7x60flepw418qkoqi1xage1h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='rwq' name='textscan.1md38z30m6ofsd11vxjbg09xrqdx'>
+            <connection class='textscan' directory='C:/Users/carmi/OneDrive/Desktop/DATA_301/Milestone_Project' filename='rwq.csv' password='' port='0' server='' />
+          </named-connection>
+          <named-connection caption='wwq' name='textscan.06zm3ze0q7sf9f0zudvz813oyj4l'>
+            <connection class='textscan' directory='C:/Users/carmi/OneDrive/Desktop/DATA_301/Milestone_Project' filename='wwq.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1md38z30m6ofsd11vxjbg09xrqdx' name='rwq.csv' table='[rwq#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='real' name='fixed acidity' ordinal='0' />
+            <column datatype='real' name='volatile acidity' ordinal='1' />
+            <column datatype='real' name='citric acid' ordinal='2' />
+            <column datatype='real' name='residual sugar' ordinal='3' />
+            <column datatype='real' name='chlorides' ordinal='4' />
+            <column datatype='real' name='free sulfur dioxide' ordinal='5' />
+            <column datatype='integer' name='total sulfur dioxide' ordinal='6' />
+            <column datatype='real' name='density' ordinal='7' />
+            <column datatype='real' name='pH' ordinal='8' />
+            <column datatype='real' name='sulphates' ordinal='9' />
+            <column datatype='real' name='alcohol' ordinal='10' />
+            <column datatype='integer' name='quality' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.1md38z30m6ofsd11vxjbg09xrqdx' name='rwq.csv' table='[rwq#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='real' name='fixed acidity' ordinal='0' />
+              <column datatype='real' name='volatile acidity' ordinal='1' />
+              <column datatype='real' name='citric acid' ordinal='2' />
+              <column datatype='real' name='residual sugar' ordinal='3' />
+              <column datatype='real' name='chlorides' ordinal='4' />
+              <column datatype='real' name='free sulfur dioxide' ordinal='5' />
+              <column datatype='integer' name='total sulfur dioxide' ordinal='6' />
+              <column datatype='real' name='density' ordinal='7' />
+              <column datatype='real' name='pH' ordinal='8' />
+              <column datatype='real' name='sulphates' ordinal='9' />
+              <column datatype='real' name='alcohol' ordinal='10' />
+              <column datatype='integer' name='quality' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.06zm3ze0q7sf9f0zudvz813oyj4l' name='wwq.csv' table='[wwq#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='real' name='fixed acidity' ordinal='0' />
+              <column datatype='real' name='volatile acidity' ordinal='1' />
+              <column datatype='real' name='citric acid' ordinal='2' />
+              <column datatype='real' name='residual sugar' ordinal='3' />
+              <column datatype='real' name='chlorides' ordinal='4' />
+              <column datatype='real' name='free sulfur dioxide' ordinal='5' />
+              <column datatype='real' name='total sulfur dioxide' ordinal='6' />
+              <column datatype='real' name='density' ordinal='7' />
+              <column datatype='real' name='pH' ordinal='8' />
+              <column datatype='real' name='sulphates' ordinal='9' />
+              <column datatype='real' name='alcohol' ordinal='10' />
+              <column datatype='integer' name='quality' ordinal='11' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[alcohol (wwq.csv)]' value='[wwq.csv].[alcohol]' />
+          <map key='[alcohol]' value='[rwq.csv].[alcohol]' />
+          <map key='[chlorides (wwq.csv)]' value='[wwq.csv].[chlorides]' />
+          <map key='[chlorides]' value='[rwq.csv].[chlorides]' />
+          <map key='[citric acid (wwq.csv)]' value='[wwq.csv].[citric acid]' />
+          <map key='[citric acid]' value='[rwq.csv].[citric acid]' />
+          <map key='[density (wwq.csv)]' value='[wwq.csv].[density]' />
+          <map key='[density]' value='[rwq.csv].[density]' />
+          <map key='[fixed acidity (wwq.csv)]' value='[wwq.csv].[fixed acidity]' />
+          <map key='[fixed acidity]' value='[rwq.csv].[fixed acidity]' />
+          <map key='[free sulfur dioxide (wwq.csv)]' value='[wwq.csv].[free sulfur dioxide]' />
+          <map key='[free sulfur dioxide]' value='[rwq.csv].[free sulfur dioxide]' />
+          <map key='[pH (wwq.csv)]' value='[wwq.csv].[pH]' />
+          <map key='[pH]' value='[rwq.csv].[pH]' />
+          <map key='[quality (wwq.csv)]' value='[wwq.csv].[quality]' />
+          <map key='[quality]' value='[rwq.csv].[quality]' />
+          <map key='[residual sugar (wwq.csv)]' value='[wwq.csv].[residual sugar]' />
+          <map key='[residual sugar]' value='[rwq.csv].[residual sugar]' />
+          <map key='[sulphates (wwq.csv)]' value='[wwq.csv].[sulphates]' />
+          <map key='[sulphates]' value='[rwq.csv].[sulphates]' />
+          <map key='[total sulfur dioxide (wwq.csv)]' value='[wwq.csv].[total sulfur dioxide]' />
+          <map key='[total sulfur dioxide]' value='[rwq.csv].[total sulfur dioxide]' />
+          <map key='[volatile acidity (wwq.csv)]' value='[wwq.csv].[volatile acidity]' />
+          <map key='[volatile acidity]' value='[rwq.csv].[volatile acidity]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fixed acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fixed acidity]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>fixed acidity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>volatile acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[volatile acidity]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>volatile acidity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citric acid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[citric acid]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>citric acid</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>residual sugar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[residual sugar]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>residual sugar</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chlorides</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chlorides]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>chlorides</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>free sulfur dioxide</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[free sulfur dioxide]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>free sulfur dioxide</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total sulfur dioxide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total sulfur dioxide]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>total sulfur dioxide</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[density]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>pH</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sulphates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sulphates]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>sulphates</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alcohol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[alcohol]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>alcohol</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quality]</local-name>
+            <parent-name>[rwq.csv]</parent-name>
+            <remote-alias>quality</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rwq.csv_A44578E68F344C24815E363D0E48922D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fixed acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fixed acidity (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>fixed acidity</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>volatile acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[volatile acidity (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>volatile acidity</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citric acid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[citric acid (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>citric acid</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>residual sugar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[residual sugar (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>residual sugar</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chlorides</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chlorides (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>chlorides</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>free sulfur dioxide</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[free sulfur dioxide (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>free sulfur dioxide</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total sulfur dioxide</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total sulfur dioxide (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>total sulfur dioxide</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[density (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>pH</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sulphates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sulphates (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>sulphates</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alcohol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[alcohol (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>alcohol</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quality (wwq.csv)]</local-name>
+            <parent-name>[wwq.csv]</parent-name>
+            <remote-alias>quality</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Alcohol (Wwq.Csv) (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[alcohol (wwq.csv)]' peg='0' size='0.377' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Alcohol (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[alcohol]' peg='0' size='0.467' />
+      </column>
+      <column datatype='integer' name='[Quality (Wwq.Csv) (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[quality (wwq.csv)]' peg='0' size='1.117' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Quality (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[quality]' peg='0' size='0.998' />
+      </column>
+      <column datatype='integer' name='[Residual Sugar (Wwq.Csv) (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[residual sugar (wwq.csv)]' peg='0' size='2.76' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Residual Sugar (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[residual sugar]' peg='0' size='0.93' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='rwq.csv' datatype='table' name='[__tableau_internal_object_id__].[rwq.csv_A44578E68F344C24815E363D0E48922D]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='wwq.csv' datatype='table' name='[__tableau_internal_object_id__].[wwq.csv_CFFB0F606A084C91BAE11F08A94519F6]' role='measure' type='quantitative' />
+      <column caption='Alcohol (Wwq.Csv)' datatype='real' name='[alcohol (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+      <column caption='Chlorides (Wwq.Csv)' datatype='real' name='[chlorides (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Chlorides' datatype='real' name='[chlorides]' role='measure' type='quantitative' />
+      <column caption='Citric Acid (Wwq.Csv)' datatype='real' name='[citric acid (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Citric Acid' datatype='real' name='[citric acid]' role='measure' type='quantitative' />
+      <column caption='Density (Wwq.Csv)' datatype='real' name='[density (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Density' datatype='real' name='[density]' role='measure' type='quantitative' />
+      <column caption='Fixed Acidity (Wwq.Csv)' datatype='real' name='[fixed acidity (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+      <column caption='Free Sulfur Dioxide (Wwq.Csv)' datatype='real' name='[free sulfur dioxide (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Free Sulfur Dioxide' datatype='real' name='[free sulfur dioxide]' role='measure' type='quantitative' />
+      <column caption='P H' datatype='real' name='[pH]' role='measure' type='quantitative' />
+      <column caption='Quality (Wwq.Csv)' datatype='integer' name='[quality (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+      <column caption='Residual Sugar (Wwq.Csv)' datatype='real' name='[residual sugar (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Residual Sugar' datatype='real' name='[residual sugar]' role='measure' type='quantitative' />
+      <column caption='Sulphates (Wwq.Csv)' datatype='real' name='[sulphates (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Sulphates' datatype='real' name='[sulphates]' role='measure' type='quantitative' />
+      <column caption='Total Sulfur Dioxide (Wwq.Csv)' datatype='real' name='[total sulfur dioxide (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Sulfur Dioxide' datatype='integer' name='[total sulfur dioxide]' role='measure' type='quantitative' />
+      <column caption='Volatile Acidity (Wwq.Csv)' datatype='real' name='[volatile acidity (wwq.csv)]' role='measure' type='quantitative' />
+      <column caption='Volatile Acidity' datatype='real' name='[volatile acidity]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='rwq.csv' id='rwq.csv_A44578E68F344C24815E363D0E48922D'>
+            <properties context=''>
+              <relation connection='textscan.1md38z30m6ofsd11vxjbg09xrqdx' name='rwq.csv' table='[rwq#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='real' name='fixed acidity' ordinal='0' />
+                  <column datatype='real' name='volatile acidity' ordinal='1' />
+                  <column datatype='real' name='citric acid' ordinal='2' />
+                  <column datatype='real' name='residual sugar' ordinal='3' />
+                  <column datatype='real' name='chlorides' ordinal='4' />
+                  <column datatype='real' name='free sulfur dioxide' ordinal='5' />
+                  <column datatype='integer' name='total sulfur dioxide' ordinal='6' />
+                  <column datatype='real' name='density' ordinal='7' />
+                  <column datatype='real' name='pH' ordinal='8' />
+                  <column datatype='real' name='sulphates' ordinal='9' />
+                  <column datatype='real' name='alcohol' ordinal='10' />
+                  <column datatype='integer' name='quality' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='wwq.csv' id='wwq.csv_CFFB0F606A084C91BAE11F08A94519F6'>
+            <properties context=''>
+              <relation connection='textscan.06zm3ze0q7sf9f0zudvz813oyj4l' name='wwq.csv' table='[wwq#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='real' name='fixed acidity' ordinal='0' />
+                  <column datatype='real' name='volatile acidity' ordinal='1' />
+                  <column datatype='real' name='citric acid' ordinal='2' />
+                  <column datatype='real' name='residual sugar' ordinal='3' />
+                  <column datatype='real' name='chlorides' ordinal='4' />
+                  <column datatype='real' name='free sulfur dioxide' ordinal='5' />
+                  <column datatype='real' name='total sulfur dioxide' ordinal='6' />
+                  <column datatype='real' name='density' ordinal='7' />
+                  <column datatype='real' name='pH' ordinal='8' />
+                  <column datatype='real' name='sulphates' ordinal='9' />
+                  <column datatype='real' name='alcohol' ordinal='10' />
+                  <column datatype='integer' name='quality' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[quality]' />
+              <expression op='[quality (wwq.csv)]' />
+            </expression>
+            <first-end-point object-id='rwq.csv_A44578E68F344C24815E363D0E48922D' />
+            <second-end-point object-id='wwq.csv_CFFB0F606A084C91BAE11F08A94519F6' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='RW ABV vs quality'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Red wine alcohol content distribution against quality</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='rwq.csv (Multiple Connections)' name='federated.0yji7x60flepw418qkoqi1xage1h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0yji7x60flepw418qkoqi1xage1h'>
+            <column aggregation='None' datatype='integer' name='[Alcohol (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[alcohol]' peg='0' size='0.467' />
+            </column>
+            <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='Count' name='[cnt:alcohol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Alcohol (bin)]' derivation='None' name='[none:Alcohol (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#ead2d2</color>
+                <color>#e3b5b5</color>
+                <color>#dc9a9a</color>
+                <color>#d58080</color>
+                <color>#cf6767</color>
+                <color>#c85050</color>
+                <color>#c13a3a</color>
+                <color>#ba2525</color>
+                <color>#b31111</color>
+                <color>#ad0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0yji7x60flepw418qkoqi1xage1h].[cnt:alcohol:qk]</rows>
+        <cols>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Alcohol (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Alcohol (bin):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{002F66EF-8032-4E81-912A-4E8177BD9F49}' />
+    </worksheet>
+    <worksheet name='RW RS vs quality'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Red wine residual sugar content distribution against quality</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='rwq.csv (Multiple Connections)' name='federated.0yji7x60flepw418qkoqi1xage1h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0yji7x60flepw418qkoqi1xage1h'>
+            <column aggregation='None' datatype='integer' name='[Residual Sugar (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[residual sugar]' peg='0' size='0.93' />
+            </column>
+            <column-instance column='[residual sugar]' derivation='Count' name='[cnt:residual sugar:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Residual Sugar (bin)]' derivation='None' name='[none:Residual Sugar (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+            <column caption='Residual Sugar' datatype='real' name='[residual sugar]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#e9d2d2</color>
+                <color>#e2b5b5</color>
+                <color>#db9999</color>
+                <color>#d47f7f</color>
+                <color>#cd6666</color>
+                <color>#c64f4f</color>
+                <color>#bf3939</color>
+                <color>#b82424</color>
+                <color>#b11111</color>
+                <color>#aa0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0yji7x60flepw418qkoqi1xage1h].[cnt:residual sugar:qk]</rows>
+        <cols>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Residual Sugar (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Residual Sugar (bin):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{544E805F-B196-49CB-B52D-3C362B116312}' />
+    </worksheet>
+    <worksheet name='WW ABV vs quality'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>White wine alcohol content distribution against quality</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='rwq.csv (Multiple Connections)' name='federated.0yji7x60flepw418qkoqi1xage1h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0yji7x60flepw418qkoqi1xage1h'>
+            <column datatype='integer' name='[Alcohol (Wwq.Csv) (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[alcohol (wwq.csv)]' peg='0' size='0.377' />
+            </column>
+            <column caption='Alcohol (Wwq.Csv)' datatype='real' name='[alcohol (wwq.csv)]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol (wwq.csv)]' derivation='Count' name='[cnt:alcohol (wwq.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Alcohol (Wwq.Csv) (bin)]' derivation='None' name='[none:Alcohol (Wwq.Csv) (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality (wwq.csv)]' derivation='None' name='[none:quality (wwq.csv):qk]' pivot='key' type='quantitative' />
+            <column caption='Quality (Wwq.Csv)' datatype='integer' name='[quality (wwq.csv)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#f2f2e6</color>
+                <color>#f3f3db</color>
+                <color>#f5f5d0</color>
+                <color>#f6f6c5</color>
+                <color>#f8f8b9</color>
+                <color>#f9f9ae</color>
+                <color>#fafaa2</color>
+                <color>#fcfc96</color>
+                <color>#fdfd8b</color>
+                <color>#ffff7f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0yji7x60flepw418qkoqi1xage1h].[cnt:alcohol (wwq.csv):qk]</rows>
+        <cols>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Alcohol (Wwq.Csv) (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.0yji7x60flepw418qkoqi1xage1h].[Alcohol (Wwq.Csv) (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{797F2673-7DB3-4A40-9916-5AC47766E068}' />
+    </worksheet>
+    <worksheet name='WW RS vs quality'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>White wine residual sugar content distribution against quality</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='rwq.csv (Multiple Connections)' name='federated.0yji7x60flepw418qkoqi1xage1h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0yji7x60flepw418qkoqi1xage1h'>
+            <column datatype='integer' name='[Residual Sugar (Wwq.Csv) (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[residual sugar (wwq.csv)]' peg='0' size='2.76' />
+            </column>
+            <column-instance column='[residual sugar (wwq.csv)]' derivation='Count' name='[cnt:residual sugar (wwq.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Residual Sugar (Wwq.Csv) (bin)]' derivation='None' name='[none:Residual Sugar (Wwq.Csv) (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality (wwq.csv)]' derivation='None' name='[none:quality (wwq.csv):qk]' pivot='key' type='quantitative' />
+            <column caption='Quality (Wwq.Csv)' datatype='integer' name='[quality (wwq.csv)]' role='measure' type='quantitative' />
+            <column caption='Residual Sugar (Wwq.Csv)' datatype='real' name='[residual sugar (wwq.csv)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#f2f2e6</color>
+                <color>#f3f3db</color>
+                <color>#f5f5d0</color>
+                <color>#f6f6c5</color>
+                <color>#f8f8b9</color>
+                <color>#f9f9ae</color>
+                <color>#fafaa2</color>
+                <color>#fcfc96</color>
+                <color>#fdfd8b</color>
+                <color>#ffff7f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0yji7x60flepw418qkoqi1xage1h].[cnt:residual sugar (wwq.csv):qk]</rows>
+        <cols>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Residual Sugar (Wwq.Csv) (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.0yji7x60flepw418qkoqi1xage1h].[Residual Sugar (Wwq.Csv) (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{7439DFBF-4C5B-4D66-8DD3-F8CEA1BBCD98}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='RW ABV vs quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Alcohol (bin):qk]</field>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Quality (bin):qk]</field>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{262B5340-2496-43D0-A3FF-37BDA6EF862C}' />
+    </window>
+    <window class='worksheet' name='RW RS vs quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[Multiple Values]</field>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:Residual Sugar (bin):qk]</field>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{519F53BF-FB93-4417-911A-D5379A26477F}' />
+    </window>
+    <window class='worksheet' name='WW ABV vs quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{925FD1CD-A6E9-42D5-B3A5-E24C5FE2138B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='WW RS vs quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0yji7x60flepw418qkoqi1xage1h].[none:quality (wwq.csv):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{134C6F72-22B0-45E9-91C0-EA4A25945EF6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='RW ABV vs quality' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAK3ElEQVR4nO3d2U8bWRoF8HO9gW0WEzCLWR0wBkxaPQ+jHo3mqaVW/+mtGY00nUnMFgdM
+      IBhsgwmLt1ruPCTQqJt0XGWXl/nOT0LCxF/VpcIBp6iTUlprDSKhfF5s1E2mtNau5trdb7/N
+      98MaBn3eyTY8CYBt212de2BZ1kDPa63FH4N2523b7n0AiAYFA0CiMQAkGgNAojEAJBoDQKIx
+      ACQaA0CiMQAkGgNAojEAJBoDQKIxACSa4wBoq4ns7gEA4OaqiA+FIm6uishmd1BttnclH1G3
+      BZw8WWuNw1wOtaYFrW2cFEqAUvhkW9jeTCO7/x6ZzdTjc93oh+vJeznfD2sY9Hkn23AUgOZd
+      GYcfL2EZVbw1q6j7o6hclTE/MwkoPwDr8Zp2N5+E27mn8+3o9fzD5y75GHTiGCqlWn6+clOJ
+      PMofIbmShLZtHJ+cYNivUb6+wdxSCpNjYViWBb/f73jhtm07nnvKNE0EAo4y3VfzD98AJB+D
+      ducty4JSCj5fa6/uXQWglUUwAM4xAN0PgPs9CWfb9h9+XNu2DdM0vzmrlGrri5w6hwFwybIs
+      1Go1V7OBQACRSKTDKyI3GAC3DAP6+trdbCTy+Y16jgFwybi8xPUvv7iajSwuIjI11eEVkRv8
+      TTCJxgCQaAwAicYAkGgMAInGAJBoDACJxgCQaAwAieb4N8HaamLnII+15TkcffiI8EgMExEf
+      TgplJNfSiAwJuchLqc9vbmepL7huhPmCw0ivp/Dr67e4Cfq+NMJyyGyuPz7XqUG6Q4pVraKZ
+      z7vaR2h4+E/3MyjHoF/nnWzDdSOsnlzC/n4OG6++w/H7/S+NMNv1XU4e5py0eX6vm/Pm7S3u
+      Dw9d7ScQiz17jDrxDWCQjqGX861uw1EAhkbj+OnHOI7yedxeniM0MoJyqYzJ8RFkd7JILKXg
+      8/lclToeqmztXCffbpnEybxqsXDx7OxXPs9OFGKkzwPwvhCTXFkBACSefGx2wc2WiHqLZ4FI
+      NAaARGMASDQGgERjAEg0BoBEYwBINAaARGMASDQGgERjAEg0BoBEYwBINMdXgzarFfzzv0f4
+      69YS9vLnGBmNIeJr4Or2HtPzq5ieiHqxTiJPOG6E5fIFjI+GcHhygVevtrGbzaKuNDJbGWT3
+      DjA1nu7pLZJa+f/5OzGv27iVj9b62f106hZJ3ToG/Tj/cOxaLWU5boRd39Zxc13CwuwsaoYF
+      QANaw7YNKBXoaSGmm3cnabcQ89x+eIeYPr9DzNBoHH//IY5SqYSpF+M4ONjHTGIJYb+B/Xd5
+      rKbWXS2aqFdcRS0ejwMA0ptbjx/bGp/szIqIuohngUg0BoBEYwBINAaARGMASDQGgERjAEg0
+      BoBEYwBINAaARGMASDQGgERzFACtNUzDgGla0FrDaDZh2xpa22g2DbR/Xw+i7nJ4NaiFk+MP
+      KBbLSMxP4c4A6rU6ogEb2udHKDqF5MK0Nysl8oCjACgVQDQSRN3WGAuHcHZ5iVBoGE1bI7Ox
+      gezOPuzEFBth35plI8yzeU8bYVazhkBkAomxMt4VKlhPpXD47gAq6Mf1VQmh8CgbYa3MshHm
+      2bynjTBfcBhG7QyxhVWsTYyi8PEUG1sZhAPAWfEKqZe8TxINFocvgRRm5uYfHycWlh7fX0jM
+      dm5VRF3C06AkGgNAojEAJBoDQKIxACQaA0CiMQAkGgNAojEAJBoDQKIxACQaA0CiOW6EGc0G
+      DMMEvjTCPrfDbDQaTTbCaOA4boR9PPmIYrGM9fQyTi4+YSYex3XxFCoQQCAyyUYYDRTHjbBI
+      OICaZeP09AxD4SguiiUorZBJpdkIaxEbYd7Ne94I84XHMTdWQmB0HGp4DNWLM4T8QOXyAqHI
+      GBthrcyyEebZvOeNMLtRwYvFNUzGxnBVusD0xgbCQeC8WEEqOedq0US94rgRNj2beHw8Of1b
+      CywxN9O5VRF1CU+DkmgMAInGAJBoDACJxgCQaAwAicYAkGgMAInGAJBoDACJxgCQaAwAieaw
+      EWbj9PgIp4UiNIBm9Rblyg2M+j1yh3lYNjthNFgc/gTQeBGfQ+XsFIbWyB0e47xwir2DHOZn
+      YtjPHXuzSiKPOLwc2o+7T2e4a5oofjhEZCKOq1IBoWAAw5Ex2GYBtm2zEfatWTbCPJv3uBFW
+      xeX1PYaDCqGRF7Dvb3Bfa2AiOoRs9g0m4ktshLUyy0aYZ/OeNsL8oQg2Nzd++8DkBJaWlh0t
+      kKif8CwQicYAkGgMAInGAJBoDACJxgCQaAwAicYAkGgMAInGAJBoDACJxgCQaAwAieboalCt
+      TeT2czDgR3JxBscnZxiKjCEWVvhYvMLyy3WMhoNerZWo4xxeeO3H0soydt7uAkNJpNZe4vXb
+      PdwFFLa3NpDdO0Rmcx1aa8eljoeZdsogD9vpynw7+/nK59mJQgznnW3DcfOgVr1DwKfRrNeQ
+      3c8hs/0K73N7ABQA7biR85TW2tVcL+bb+SvSeP74tHPsnm5D8rxt21BKQSnV0vMdBcA2aihc
+      XEINRXBbusBQNIKLYgkzE+PI7uxiYWW9rUYYgLbaUO22qZzMt3qAvzb73H460QiTPg+ge42w
+      hSd/Fk8sOtkUUV/gWSASjQEg0RgAEo0BINEYABKNASDRGAASjQEg0RgAEo0BINEYABKNASDR
+      GAASzVUjrKn9SL9MYD+XR2xyFhF/k40wGkiOG2GLy4vYze7j4P0RVjcyyO1mUYFG5neNsP/3
+      Qky7jTAWYrybBzy6RRIANOo1BPwaDVPBpwBAfS6D/a4R5qbWNkiVyHYbYX9WiWzXoBzDfph3
+      3Ag7Oy/DF4pgMzmPvZ0sYhPTCPsabIQ5wEaYd/NdvUfYd9vbj+/H59gIo8HDs0AkGgNAojEA
+      JBoDQKIxACQaA0CiMQAkGgNAojEAJBoDQKIxACQaA0CiMQAkmsNGmIGD3RzuqjUsLs6ieHUD
+      nz+I0aCNT/c1TM2uYHZqzKu1EnWcowAoFcTq2gpev94BLBOGacJnK3wyDGS2MsjuHWD6xcjj
+      de1OuZ17Om+aZlfmdZutpef204l7hHXzGPTjvKeNMG2beP06i+3v/4LjdztYS6WR292BP+CH
+      adTh84faKsR8rSjSKtM0EQg4Lrm5mlctFi6enVXq2f10ohDTzWPQj/OeFmJgGxgaDuP46BCL
+      yVWcHB8hsbiMsWGF9/kzrK2tulkzUc84ewkUCGP7Vebx8Xo6/fj+RjrWuVURdQnPApFoDACJ
+      xgCQaAwAicYAkGgMAInGAJBoDACJxgCQaAwAicYAkGgMAInmMAAajVoV99U6oDVq93eoN5rQ
+      toWb27u2bhpB1AuO7xFWKJRQKV9gfmURlzcNzExNIJ87RjgaRalyh9WlWa/WStRxDhthAcTG
+      QqjcjaJ4fo5QOIqT0wL8yoel5SSyO/uw7Wk2wr41y0aYZ/PeNsLMOt7sHWN7ewNW9RoVIwT7
+      voyhoML52SmGR2JshLUyy0aYZ/PeNsJ8IaRTSTSbBqbmlhH6VMHi3CZCfoXK9S1mJyfcrJmo
+      Z5y9BPL5MT0z8/h4LPbi8f1JfvHTAOJpUBKNASDRGAASjQEg0RgAEo0BINH+eBpUa9zf38Gy
+      P/9GzR8MIRoe7va6iLri2d8DvPnPv3B12wAATCZW8MP3W11dFFG3/PElkFL42z9+RNRv4rpy
+      iYbh/poXon731X8DZHMf8PPPPyH767+7uR6irvofSnao92lkm28AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='RW RS vs quality' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='WW ABV vs quality' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAQb0lEQVR4nO3d21MbWX4H8G93644ACQQSV4OMwPiyO3hmvbO2a2uSVE1tqpLdqU0qqa3K
+      Sx7mKf9W8uanZLJVSSo7tVPe3Zl41heEbCShOwLETYDQXd0nD2DsmcFln5Zabun8Pk8e49N9
+      DvAd5HO+bkmMMQZCBCUbcVG9mepUFvvxOoyxjl2nE/plTZa27/49jDFomgZZ5s+WqqpQFKXt
+      OfTjdTr1jUtr+i6uAGjNKuLJLCDJCC6EIDXKKDWAYZcFmc1dzF2ZvgiAnsVpmsY9RpTrvPx8
+      SpL03ufSqeuYYU0S798BGGNYC4dx49YtRCMRtGQZaDYQDM4gWyhjeWFWdyJbrRYslvZ/KPXj
+      dV5+kfX8ZO30XDp1HTOsifvOreoRFJcXxZ0chv3TkMAgWSxwub1Q62VdkyDkfeEMAEM8kcNi
+      cAay1Y7S4Q62CvtwWiREImEMjYwbM0tCDML9Euhd0Eugzl/HDC8XOn0dM6zJkG1QQnoFBYAI
+      jQJAhEYBIELTdRBWKVexsHQV+VwerkEPPE4Zue19zIeW4LK1f8pISLfoOggLh9ewvHwNFouC
+      p09XYbEquLm8hEg0jRvLIapCGHCdl72ZdndMzLYmoP2T4K5VIQCgfJCH2zcJhTXx52+f4drN
+      HyGTjAOSAkClKoRB13n5+Wx319qMa+qhKgRDIplEMHgV28ko9uvAkHsIDtSxf3yCiZkQRoed
+      dA5gwHXMsGfe6euYYU10ENYj1zHDN0unr2OGNdEuEBEaBYAIjQJAhEYBIELr+D+J7EePHj1C
+      ucz3bx18Ph9u3rxp0IxIp1AA3sHBwQHu3r3LNebrr7+mAPQAfVWI0wqWby0juZHAyNgUXEqj
+      r6sQyWQcmlbnGrO3d2jQbEgncQVAtjqxuLiIcHgNm4kNzC/eQGI9AgZ2XoVI4MZyCEB/PRol
+      GJzCvXs/5hr3pz+tfmcO/fIYkU5ehzEGSZLe65q4XwKd7ufh9k2hUdyGVQEACbKEPq9C8K+F
+      MQZVVTs2H6pCGDMXzgAw7JUamA9OozkkIbIWwdDwCJxyA5HnEUzMhiDLMhhjfXYSzP8FkiTp
+      Yg79cmra6euYYU2coyQEg0EAgM3txY9veS8+EpjWdX9C3is6ByBCowAQoVEAiNAoAERoFAAi
+      NAoAERr3s0FPjw+R2dwGYyoyqQRKlTrUZg3JVBYavdkM6TFcAWBqA4lMAeOjHuRi63D7p7ER
+      W8fz5+vw+9yIbmSNmichhuA6CGPVIvZPqmg+e4LA9AxS0XVYrHZIUgsutwdqowBN09qqQrRa
+      Le5xRl8nmUxxl+F2d0sXc+jEfF5+PtutIJjpc2yGNXEFQBrwwWvPgTELKrUaXA4bqvUmhpwK
+      IpEwhn3TfVmFWFgYx/37S1xj//jHBFUh3sIMa+ILgGTB7Z/8RNeNCDEj2gUiQqMAEKFRAIjQ
+      KABEaBQAIjQKABGajirEwXkVgqGQz2K/WILaqFIVgvQkXVWIsVEPDrcyqFvccDuteP4iisAY
+      VSFI7+GuQhyU6mg9ewLV6sSIV0U4n4PTboFzoH+rEHowxqgK8RZmWJOuKoSmWRCcmUB2Zx8W
+      ixUuK86rEDN9WYXQg54K8XZmWBN3FWLlo1dVCN94QNdNCTEL2gUiQqMAEKFRAIjQKABEaBQA
+      IjQKABEadxWidHRWhQCAZvUUB8enaDWqSKQyVIUgPYe7CpHMFjA24gFjDPFEGlv5LF68iGJi
+      bIiqEKTn6KtCrD7FSCCAQV8Ah3vbUCwWOAeGoTZ2qApxjqoQb2eGNXFWIcbOqhBMgWtgEOWT
+      YxweneCK34tIJAwPVSEuUBXi7cywJs4qhPKdKgTGfAhevarrxoSYAe0CEaFRAIjQKABEaBQA
+      IjQKABEaBYAITXcVgmkqsqkEiiflsypEkqoQpPdwViHqSGQK8I14UC2fwjcxg1QihhfrUUyM
+      DyG6kTFqnoQYgrMKcYRiuY5o+ClCK3eQXV/FxPQcDnbzVIX4HqpCvJ0Z1sRdhfDYctCYBYVE
+      BCXVioFaDS6rTFWI76EqxNuZYU1tVSEWLn41oevmhLxvtAtEhEYBIEKjABChUQCI0NrfDiCX
+      2t3dw5dffgngbLfjXXY6GGO4c+cO3G630dMj5ygABvF6Pfjwww+5xhQKBeRyOSwvLxs0K/J9
+      nAFgKBUPcFBu4sqUH7lMGiP+aTjkFjL5PczNz0KRJGNm2mP29/fw8OHvuMYUi0e4ffunBs2I
+      XIbvJFitI5EtIBSax1YyBufYLBLxKGRouBqcRWwjg+XQnEFT7S0+3zDu3/+Aa0yhsIdm06AJ
+      kUvpqEI0EQ0/Q9M+hDtBFwqyDEjSWRWiSVWIdqmqeuk9zVAb6PR1zLAmHU+F2ISqWTAf8OJJ
+      eA0OuxNOuXFWhRijKkS7FEW59J5mqA10+jpmWBN3FeKDDz+6+O/xwKSumxJiFnQOQIRGASBC
+      owAQoVEAiNAoAERoFAAiNL7NU8aQyyRRVRWE5qeRSafhHZ+Cy8qQze9ibu4KFJmqEMDZ3nSp
+      dMo1plwuw2ajIlw38Z0Eg+GoVMG15evIxaMYnLmKZHwdFglYuHoF0UQG16kKAQAol4+RSj3j
+      GnN4eIyFBb9BMyKX4T4+G/EMYfXPjzE560cmFoVssUOSWnC4hqA1t6kKcc7jGcTKCl+rs1A4
+      QLlMVYhuzoUvAK06jk+rYLKCer0Jh92KWkPFgEs5r0LMUhWiTVSF6O5c+KoQVieuL1/TdSNC
+      zIh2gYjQKABEaBQAIjQKABEaBYAIjQJAhMYXAMaQSycQS6TBGMP2ZgZ7hydo1ivYSKahavQG
+      GaS38L1BBhiKJ2XMz05jP59GXRmA22nDejSOKb+H3iCD9Bzu4zPfiAerj59Aslvg9cqIvMjD
+      YVfOqhAtqkK0i54K0d25cFchjkoVMFnBwuwkEpt7sNpsGLABkUgYXqpCtI2qEN2dS1tViNsj
+      1FwkvY12gYjQKABEaBQAIjQKABEaBYAIjQJAhKa7CgEA9UoJe8UTNGtlbCSoCkF6D3cV4vD4
+      FHOz02CMIZHMoLC9ifXYBqYCVIUgvYf7+GzcN4K1J08w6vfC6fGhuL8Dm9VCVYgOoSpEd+fC
+      XYUonpShSQqGhkdxelJCpVqHd8BxVoUYpypEu6gK0d25tFWF8Hq8mJmd1XVjQsyA3ia1Dxwf
+      H0NV1Xf6s6qqQlEUyLIMj8dj8MzMjwLQBx48eMD93sKRSASff/65QTPqHRSAPlCplFEsHnKP
+      IRSAvhAKTeLevZtcYxSlZtBsegudBBOhUQCI0PirEKmzKoSmtpBJJnBwVDqvQqTQoioE6TH8
+      VYiTU8zNTqFWrWB8ahaZVOKsCjExgthG2qBpEmIM7r8E+8dGsfbkKZZvryARCWNqdh57O5tw
+      OAehtbaoCtEmPVUIHZ9qMMbaWpuwVYjD41NosoJC8gXKzAZ3pQq33YJIZA3e8RmqQrRJTxVC
+      0vG2bJIktbU2qkIAmLv41YSumxPyvtEuEBEaBYAIjQJAhEYBIEKjABChUQCI0Pg2TxlDNp1A
+      TbMgND+DTDqF0cAM7HIT2fwe5ubnYJF1bEqTtmxsxMFYhWtMPJ7FL35h0IR6CFcAXj4VYvn6
+      DWwmY3D755DciEGGhtDCHGIbaVxfnDdqruQNFhencP8+Xx1alts7fe0X3MdnE/4xRJ4+BVwu
+      fOB2YkeWAUmCnaoQHaGvCqGvhEhVCB1ViIOjEjTZgoXACJ6F1+BwuOCUG+dVCHoqRLv0VSH0
+      veykKkSbVYgVH1UgSG+jXSAiNAoAERoFgAiNAkCERgEgQqMAEKFxB4AxFZv5LWhqE8nEBo5K
+      ZTSqp4jTUyFID+I8PWDIpxPI7FfATo8wPHMV6fg6FAlUhSA9iSsAau0UO8cNWNGEze1BNh6D
+      pDggSU2qQnQIVSG6Oxe+MpxsxeT4CFLpNCq1Juw2C+otFW7H2VMhRqgK0TaqQnR3LlyjLDYH
+      JicnMTk5qetmhJgN7QIRoVEAiNAoAERoFAAiNAoAEZpQb5H0/Plz5POpd/7zjDFIkoTT05KB
+      s+ote3t7UFUVmqa98/bl8PAwnE6nwTPThzsAZ1WIHUxPTWIrl4bVPQKPU0Emv4v54LypnwpR
+      KOzg449vcI/7wx8KBsymN33xxRe4eZPvH+Cvrq7i008/NWhG7dFVhcgdVGDXaqgrbniddkTj
+      UYQW5qkKIYBAIIClpSWuMd9++61Bs2kfVwBatRJ2jhpQtAZ2Do7gGXfi+YsoHHYFdqcbWitv
+      6ipEu0fu3WD2KkQsFgZjp5yjnNxr4tG9p0LINkwFRpFKlzAbnEVqax82uwODdpxVIfzmrkK0
+      e+TeDWavQiwtBXHv3kdcYx492uBeE4+uViEmJiYwMXH2NIgVX0DXTQkxC/P/L5EQA1EAiNAo
+      AERoQh2EkfbFYhvQtAbXGFn2GDSb9gkVAFVV8fDhV9zjKhXebb/+de1aAPfvX3v7H3zNN9/s
+      GzSb9gkVAEWRcfcu3ykmAHz1lXkPckh7dD0VIreZBwDUTo+xe3iMerWE+EYSLZWeCkF6C2cA
+      GDZTCeR29sAYQzKdw+5OHrF4ErNTPsQSaUMmSYhRdFQh6lC0OjaTUdgGvTjc34HLYYfNQVWI
+      TjB7FULPrd709ejBKoQdM5NjSKXTcI/4Ya3VcMCAQYeVqhAdYvYqhJ5bybLcL1UIOwKBAAKB
+      VxWIwAS9SUYvUlUVW1tb3ONaLdWA2bw/Qu0CkVc0rYmdnXVd4/oJBUBQFosFoVCQe9zubtKA
+      2bw/5n9RTIiBKABEaBQAIrQ3BkBVW6jV67r3mAnpBT/4SzDTmvj97/4Xx5UmBlwOlE5OEPrR
+      HdxcmDn7OFOR29zB1MQYspks3N4xDDlkZLf2MDc/D6ti3qdCkFfq9ToePvw997hGo27AbN6f
+      H+4CqSpWfvYJcol1zAYXMTjgxPHJyfkHz6oQm4cVjI0MY2LmCp5HIrAqEhZD84hvpHB9iX9n
+      gXSf3W7Fz39+i3tcvxUDfxAAyerAsIWh6h3CFw/+FWX7BD7/zd8COKtCbB/VIKt1KFYr1p+H
+      MX1lAbvb2bMqhEpViHZ1swrRLT1ZhVgLr8I/t4yVlQ8ufk9S7Lgy5UcqnUY+sY665EClXL6o
+      Qoz6r1AVok3drEJ0S09WIYqVFtT9KP7r8Bi/+fXfAAAUqx1+vx9+vx8A8OoRWFSHIL3pjdGr
+      He1AHg5Aa9S6OR9CuurSnwD/89v/xN//87/AIan4j9/+d7fnREjXXBoArXaEx+F1jNuq2Dvu
+      r20vQl536UugTz/7R9hrB8gfNvBP//DLbs+JkK65NACSYsVHH9/HJ/d+iseP+2vfl5DXXb4L
+      xBj+/cG/oaopKBZPUNOs+Iuf3e7y1Agx3ht3gXKFIv7qLz+Bpti/883PmIpsbhNMayGViOP4
+      tIp6pYRYPIGmav6DJkJe98ZzgL/75V/jm/97gl999tlrv/uqCoFaCcOTQWQSMUjQsBgKIr6R
+      pioE6SlvDMD6ixeo1RrI5PKYGjt7tF2rdoLtYg1Sq4ZiVcG0y44tWQYkCTbHADR1k6oQbaIq
+      ROeu/y7eGICjo0OoliEMul69uZmkODA3E0AqncZsYBTPwmtwutxwSnWqQnQIVSH4tfN98/+e
+      YVjx9VKMjQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='WW RS vs quality' width='192'>
+      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
+      gQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
