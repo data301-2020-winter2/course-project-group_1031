@@ -7,6 +7,10 @@
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
 
+## Tableau Dashboard
+
+This project will be present on Tableau Dashboard, click on [here](https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346808?:origin=card_share_link) to go.
+
 ## Describe your topic/interest in about 150-200 words
 
 We will be exploring the various factors that affect how wine tastes. Creating the perfect wine is always the goal of the winemaker, and through an analysis of our dataset, we will find the combinations of acids, sugars, sulphites and more that yield the top rated wines. Winemaking is an art almost as old as civilization itself, and while humans have been experimenting with different tachniques for centuries, most scientific experimentation with proper analysis has occured in the past 100 years. That means that there is still plenty of room to improve and polish the overall quality of wine that is produced. This dataset will allow us to analyze, piece by piece, not only what goes into whine, but what quantities of those ingredients produce the best overall quality of wine. 
