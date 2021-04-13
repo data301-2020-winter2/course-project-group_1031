@@ -31,6 +31,6 @@ Our dataset includes thousands of different wines, both white and red, with the 
 * > Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009. 
 * > Image “Wines of Okanagan” is credit by http://www.winesofcanada.com/
 
-## Video Link
+## Presentation Video Link
 
 - https://www.youtube.com/watch?v=q2Cds3UoZ0U
